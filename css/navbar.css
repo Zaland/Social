@@ -3,6 +3,7 @@
     background-color: transparent;
     background: transparent;
     border-color: transparent;
+    padding-bottom: 40px;
 } 
 
 /* Shift the image under the navbar */
@@ -12,4 +13,10 @@
     z-index: -1;
     width: 1500px;
     height: 400px;
+}
+
+/* Set a different font for the text and align it to the center */
+#navbar-title, #navbar-text {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
 }
