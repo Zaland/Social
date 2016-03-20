@@ -29,7 +29,12 @@
                     <p> You can trust us. Our website offers the latest secrutiy measure to keep your data out of prying hands. </p>
                 </div>
             </div>
-            <br>
+            
+            <!-- footer -->
+            <footer>
+                <hr>
+                <p id="footer-text">&copy; 2015 Khan, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#"> Terms </a></p>
+            </footer>
         </div>
         
 <?php require("content/footer.html"); ?>
