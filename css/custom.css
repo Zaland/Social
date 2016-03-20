@@ -1,0 +1,10 @@
+.info-text {
+    padding-top: 160px;
+    text-align: center;
+}
+
+.info-img {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}

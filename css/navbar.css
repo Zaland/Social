@@ -20,3 +20,10 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     text-align: center;
 }
+
+#navbar-link {
+    padding-top: 10px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none !important;
+}
