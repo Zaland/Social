@@ -11,7 +11,7 @@
     position: absolute;
     top: -10px;
     z-index: -1;
-    width: 1500px;
+    width: 100%;
     height: 400px;
 }
 
@@ -21,6 +21,7 @@
     text-align: center;
 }
 
+/* Remove the underline of the link, align it to the center, and change the font */
 #navbar-link {
     padding-top: 10px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;

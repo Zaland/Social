@@ -1,8 +1,10 @@
+/* Set the text of the info appropriately */
 .info-text {
     padding-top: 160px;
     text-align: center;
 }
 
+/* Center the image to fit the info columns */
 .info-img {
     display:block;
     margin-left:auto;
