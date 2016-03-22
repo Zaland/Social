@@ -29,11 +29,6 @@
                     <p> You can trust us. Our website offers the latest security measures to keep your data out of prying hands. </p>
                 </div>
             </div>
-            
-            <hr>
-            
-            
-            </div>
         </div>
         
 <?php require("content/footer.html"); ?>
