@@ -21,13 +21,18 @@
                 <div class="col-lg-4 clearfix info-text">
                     <img src="img/icons/money.png" class="img-responsive info-img" alt="Image">
                     <h3> Free </h3>
-                    <p> Absolutely Free. You don't have to pay us a single dime. Just register, login, and have fun. </p>
+                    <p> Absolutely Free. You don't have to pay us a single dime. Just register, login, and have fun. However, for pro package it will cost $0.99 per year. </p>
                 </div>
                 <div class="col-lg-4 clearfix info-text">
                     <img src="img/icons/locked.png" class="img-responsive info-img" alt="Image">
                     <h3> Secure </h3>
-                    <p> You can trust us. Our website offers the latest secrutiy measure to keep your data out of prying hands. </p>
+                    <p> You can trust us. Our website offers the latest security measures to keep your data out of prying hands. </p>
                 </div>
+            </div>
+            
+            <hr>
+            
+            
             </div>
         </div>
         
