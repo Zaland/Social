@@ -1,5 +1,5 @@
 /* Make the navbar transparent so the image behind it can be seen */
-.navbar {
+.navbar-alternate {
     background-color: transparent;
     background: transparent;
     border-color: transparent;
