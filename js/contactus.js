@@ -19,7 +19,7 @@ $(document).ready(function() {
            highlight: function(element) {
                $(element).closest('.form-group').addClass('has-error');
            },
-           unhighligh: function(element) {
+           unhighlight: function(element) {
                $(element).closest('.form-group').removeClass('has-error');
            },
            errorElement: 'span',
