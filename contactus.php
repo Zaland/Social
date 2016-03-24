@@ -5,7 +5,7 @@
 
         <div class="container">
             <div class="row">
-                <div class="col-lg-4 col-lg-offset-4">
+                <div class="col-lg-4 col-lg-offset-4 col-md-4 col-md-offset-4">
                     <h2 class="text-center"> Meet our team! </h2>
                     <img src="img/person.png" class="img-circle img-responsive" alt="ZK">
                     <p class="text-center"> <br> Zaland Khan </p>
@@ -30,6 +30,9 @@
                         <div class="form-group">
                             <label for="comment"> Comment </label>
                             <textarea class="form-control" name="comment" rows="3" placeholder="Enter Comment"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-default btn-block contactus-btn"> Send Message </button>
                         </div>
                     </form>
                 </div>
