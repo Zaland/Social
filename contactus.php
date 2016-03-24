@@ -17,22 +17,22 @@
             
             <div class="row">
                 <div class="col-lg-6 col-lg-offset-3">
-                    <form>
+                    <form id="contactus-form">
                         <h2 class="text-center"> Contact Us </h2>
                         <div class="form-group">
-                            <label for="fullname"> Full Name </label>
+                            <label class="control-label" for="fullname"> Full Name </label>
                             <input type="text" class="form-control" name="fullname" placeholder="Enter Full Name">
                         </div>
                         <div class="form-group">
-                            <label for="email"> Email </label>
+                            <label class="control-label" for="email"> Email </label>
                             <input type="text" class="form-control" name="email" placeholder="Enter Email">
                         </div>
                         <div class="form-group">
-                            <label for="comment"> Comment </label>
+                            <label class="control-label" for="comment"> Comment </label>
                             <textarea class="form-control" name="comment" rows="3" placeholder="Enter Comment"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="button" class="btn btn-default btn-block contactus-btn"> Send Message </button>
+                            <button type="submit" class="btn btn-default btn-block contactus-btn"> Send Message </button>
                         </div>
                     </form>
                 </div>
