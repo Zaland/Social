@@ -7,7 +7,7 @@
             <div class="row">
                 <div class="col-lg-4 col-lg-offset-4">
                     <h2 class="text-center"> Meet our team! </h2>
-                    <img src="http://placehold.it/500x500" class="img-circle img-responsive" alt="ZK">
+                    <img src="img/person.png" class="img-circle img-responsive" alt="ZK">
                     <p class="text-center"> <br> Zaland Khan </p>
                     <p class="text-center"> Lead Developer </p>
                 </div>
@@ -36,4 +36,4 @@
             </div>
         </div>
 
-<?php require("content/footer.php"); ?>
+<?php require("content/footer.html"); ?>
