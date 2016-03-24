@@ -25,7 +25,29 @@ $(document).ready(function() {
            errorElement: 'span',
            errorClass: 'help-block',
            submitHandler: function(form) {
-               alert('test');
+               /* When the form has been validated, use AJAX to communicated with
+                  a php script that sends the email */
+               
+               var name = $('#fullname').val();
+               var email = $('#email').val();
+               var comment = $('#comment').val();
+               
+               var request = $.ajax({
+                   method: 'POST',
+                   url: 'scripts/email.php',
+                   data: {name: name, email: email, comment: comment}
+               });
+               
+               request.done(function(msg){
+                   $('#alert').html(msg);
+                   $('#fullname').val('');
+                   $('#email').val('');
+                   $('#comment').val('');
+               });
+               
+               request.fail(function(jqXHR, textStatus) {
+                   alert("Request failed: " + textStatus);
+               }); 
            }
        });
    });
