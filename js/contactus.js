@@ -1,4 +1,11 @@
-$(document).ready(function() {
+/* Custom fullname validator */
+$.validator.addMethod( "fullname", function( value, element ) {
+	return this.optional( element ) || /^[a-z ]+$/i.test( value );
+}, "Full name only please" );
+
+$(document).ready(function() {$.validator.addMethod( "lettersonly", function( value, element ) {
+	return this.optional( element ) || /^[a-z]+$/i.test( value );
+}, "Letters only please" );
     /* On button click, validate the form */
     $('.contactus-btn').click(function() {
        var form = $('#contactus-form');
@@ -6,7 +13,7 @@ $(document).ready(function() {
            rules: {
                fullname: {
                    required: true,
-                   lettersonly: true
+                   fullname: true
                },
                email: {
                    required: true,
